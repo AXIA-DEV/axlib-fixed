@@ -29,7 +29,7 @@ std = [
 ]
 
 [dependencies]
-typenum = { tag = "v1.15.0", features = ["derive_scale"], git = "https://github.com/encointer/typenum" }
+typenum = { tag = "v1.15.0", features = ["derive_scale"], git = "https://github.com/AXIA-DEV/typenum" }
 az = { version = "0.3", optional = true }
 half = { version = "1.4", optional = true }
 serde = { version = "1.0.60", default-features = false, optional = true }
@@ -50,5 +50,5 @@ features = ["az", "f16", "serde", "std"]
 name = "bench_main"
 harness = false
 
-#[patch."https://github.com/encointer/typenum"]
+#[patch."https://github.com/AXIA-DEV/typenum"]
 #typenum = { path = "../typenum"}
